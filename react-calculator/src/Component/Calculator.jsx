@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import * as math from 'mathjs';
 import './Calculator.css'
 import CalculatorButton from './CalculatorButton';
-import CalculatorInput from './CalculatorInputjsx';
+import CalculatorInput from './CalculatorInput';
 
 
 const Calculator = () => {
@@ -30,8 +30,7 @@ const Calculator = () => {
         <div className="container">
             <div className="container-item">
                 <h1>React Calculator</h1>
-                <p>lorem
-                </p>
+                <p>Do Not input using keyboard beacause keyoard input is not enable yet</p>
             </div>
             <div className="container-item">
                 <div className="calculator-container">
