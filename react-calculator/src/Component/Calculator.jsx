@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 //import Header from './Header'
 import * as math from 'mathjs';
 import './Calculator.css'
-import CalculatorInput from './CalculatorInput';
 import CalculatorButton from './CalculatorButton';
+import CalculatorInput from './CalculatorInputjsx';
+
+
 const Calculator = () => {
     const [input, setInput] = useState('');
 

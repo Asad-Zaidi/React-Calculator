@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <Calculator/>
-
       <h1>ASAD</h1>
       
     </div>
