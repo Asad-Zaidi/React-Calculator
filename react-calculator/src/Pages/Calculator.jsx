@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-//import Header from './Header'
 import * as math from 'mathjs';
-import './Calculator.css'
-import CalculatorButton from './CalculatorButton';
-import CalculatorInput from './CalculatorInput';
+import '../Component/Calculator.css'
+import CalculatorButton from '../Component/CalculatorButton';
+import CalculatorInput from '../Component/CalculatorInput';
 
 
 const Calculator = () => {
@@ -32,7 +31,7 @@ const Calculator = () => {
                 <h1>React Calculator</h1>
                 <p>Do Not input using keyboard beacause keyoard input is not enable yet</p>
             </div>
-            <div className="container-item">
+            <div className="container-item1">
                 <div className="calculator-container">
                     <CalculatorInput value={input} />
                     <div className="buttons-container">
