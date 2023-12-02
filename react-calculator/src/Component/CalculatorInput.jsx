@@ -19,7 +19,8 @@ const CalculatorInput = ({ value, onKeyPress }) => {
                 type="text"
                 value={value}
                 readOnly
-                onKeyPress={(e) => e.preventDefault()}
+                placeholder="Enter expression"
+                onKeyPress={(e) => e.preventDefault()} // Disable manual input
             />
         </div>
     );

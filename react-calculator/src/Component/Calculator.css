@@ -89,6 +89,7 @@ button:hover {
 .operator {
     background-color: rgb(255, 128, 0);
     color: white;
+    size: 12px;
 }
 
 .operator:hover {
