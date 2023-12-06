@@ -19,8 +19,6 @@ const CalculatorInput = ({ value, onKeyPress }) => {
                 type="text"
                 value={value}
                 readOnly
-                placeholder="Enter expression"
-                onKeyPress={(e) => e.preventDefault()}
             />
         </div>
     );

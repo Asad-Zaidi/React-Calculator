@@ -1,11 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import * as math from 'mathjs';
 import '../Component/Calculator.css'
 import CalculatorButton from '../Component/CalculatorButton';
 import CalculatorInput from '../Component/CalculatorInput';
 
+
 const Calculator = () => {
     const [input, setInput] = useState('');
+
+
+    useEffect(() => {
+        const handleKeyPress = (event) => {
+            const key = event.key;
+
+            if (/[\d.+\-*/%]/.test(key)) {
+                handleCalculatorButtonClick(key);
+            } else if (key === 'Enter') {
+                handleCalculate();
+            } else if (key === 'Escape') {
+                handleClear();
+            }
+        };
+
+        document.addEventListener('keydown', handleKeyPress);
+
+        return () => {
+            document.removeEventListener('keydown', handleKeyPress);
+        };
+    }, []); 
+    
+
+
 
     const handleCalculatorButtonClick = (value) => {
         setInput((prevInput) => prevInput + value);
