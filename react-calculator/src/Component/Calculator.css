@@ -1,11 +1,20 @@
+.container-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-item .calculator-container {
+    margin-left: auto;
+}
+
 .calculator-container {
     border: 20px solid rgb(214, 206, 206);
     border-radius: 20px;
-    width: fit-content;
-    padding: 8px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    width: auto;
+    margin-right: 20vh;
 }
 
 .input-display {
@@ -14,7 +23,7 @@
 
 input {
     width: 100%;
-    height: 8vh;
+    height: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', sans-serif;
     font-size: 20px;
     padding: 8px;
@@ -77,9 +86,4 @@ button:hover {
 
 .top-row:hover {
     background-color: rgb(120, 120, 120);
-}
-
-p {
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', sans-serif;
 }

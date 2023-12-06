@@ -27,10 +27,6 @@ const Calculator = () => {
     return (
         <div className="container">
             <div className="container-item">
-                <h1>React Calculator</h1>
-                <p>Do Not input using keyboard beacause keyoard input is not enable yet</p>
-            </div>
-            <div className="container-item1">
                 <div className="calculator-container">
                     <CalculatorInput value={input} />
                     <div className="buttons-container">
