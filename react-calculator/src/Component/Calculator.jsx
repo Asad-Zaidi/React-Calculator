@@ -4,7 +4,6 @@ import '../Component/Calculator.css'
 import CalculatorButton from '../Component/CalculatorButton';
 import CalculatorInput from '../Component/CalculatorInput';
 
-
 const Calculator = () => {
     const [input, setInput] = useState('');
 

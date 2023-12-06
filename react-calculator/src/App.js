@@ -1,26 +1,22 @@
 import React from "react";
-import Header from "./Component/Header"
-import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-} from "react-router-dom";
-import Calculator from "./Pages/Calculator";
-import Qoute from "./Pages/Qoute";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from "./Pages/Home";
+import Qoutes from "./Pages/Qoute";
+import Calculator from "./Pages/Calculate";
+
+
 
 function App() {
 	return (
-    <>
-    <Header/>
-		<Router>
-			<Routes>
-				<Route exact path="./Component/Header.jsx" element={<Header/>} />
-				<Route path="/Calculator" element={<Calculator/>} />
-        <Route path="/Qoute" element={<Qoute/>} />
-			</Routes>
-		</Router>
-    <Calculator/>
-    </>
+		<>
+			<BrowserRouter>
+				<Routes>
+					<Route exact path='/' Component={Home}></Route>
+					<Route exact path='/Calculator' Component={Calculator}></Route>
+					<Route exact path='/Qoute' Component={Qoutes}></Route>
+				</Routes>
+			</BrowserRouter>
+		</>
 	);
 }
 
