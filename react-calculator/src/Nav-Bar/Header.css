@@ -5,9 +5,27 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding-right: 40px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.navbar-title {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.navbar-title a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar-title a:hover {
+    text-decoration: none;
 }
 
 .nav-list {
@@ -18,7 +36,7 @@ header {
 }
 
 .nav-item {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .nav-item a {
