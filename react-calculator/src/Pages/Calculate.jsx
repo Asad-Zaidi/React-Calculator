@@ -6,7 +6,6 @@ const Calculate = () => {
     return (
         <>
             <Header/>
-            <div>Calling from Calculator</div>
             <Calculator />
         </>
     )

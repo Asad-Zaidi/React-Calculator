@@ -50,8 +50,8 @@ const Calculator = () => {
     };
 
     return (
-        <div className="container">
-            <div className="container-item">
+        
+            
                 <div className="calculator-container">
                     <CalculatorInput value={input} />
                     <div className="buttons-container">
@@ -86,8 +86,8 @@ const Calculator = () => {
                         <CalculatorButton className="operator" onClick={handleCalculate}> = </CalculatorButton>
                     </div>
                 </div>
-            </div>
-        </div>
+            
+        
     );
 };
 

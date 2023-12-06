@@ -1,20 +1,12 @@
-.container-item {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-item .calculator-container {
-    margin-left: auto;
-}
-
 .calculator-container {
     border: 20px solid rgb(214, 206, 206);
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    width: auto;
-    margin-right: 20vh;
+    align-self: center;
+    width: fit-content;
+    margin: 2.5vw  auto;
 }
 
 .input-display {
@@ -72,11 +64,10 @@ button:hover {
 .operator {
     background-color: rgb(255, 128, 0);
     color: white;
-    size: 12px;
 }
 
 .operator:hover {
-    background-color: rgb(255, 179, 0)
+    background-color: rgb(255, 150, 44)
 }
 
 .top-row {
