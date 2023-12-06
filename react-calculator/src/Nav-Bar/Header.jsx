@@ -6,12 +6,7 @@ const Head = () => {
     return (
         <header>
             <nav className="navbar">
-                <h1 className="navbar-title">
-                    {/* <Link to='/'>MATH MAGICIAN</Link> */}
-                    <Link to='/' className="navbar-logo">
-                    <img src="../Icons/mathLogo.jpg" alt="Math Magician Logo" />
-                </Link>
-                </h1>
+                <h1 className="navbar-title"><Link to='/'>MATH MAGICIAN</Link></h1>
                 <ul className="nav-list">
                     <li className="nav-item"><Link to='/'>Home</Link></li>
                     <li className="nav-item"><Link to='/Calculator'>Calculator</Link></li>
