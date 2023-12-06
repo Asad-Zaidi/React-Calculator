@@ -4,8 +4,6 @@ import Home from "./Pages/Home";
 import Qoutes from "./Pages/Qoute";
 import Calculator from "./Pages/Calculate";
 
-
-
 function App() {
 	return (
 		<>
