@@ -15,10 +15,8 @@ const Home = () => (
                 <h2 className="subtitle">Welcome to My page!</h2>
                 <div className="description">
                     <p className="text">
-                        <b>Math magicians</b>
-                        {' '}
-                        is a website for all fans of mathematics.
-                        <br/>
+                        <b>Math magicians</b> is a website for all fans of mathematics.
+                        <br />
                         It is a Single Page App <abbr title='Single Page App'>(SPA)</abbr> that allows users to:
                     </p>
                     <ul>
@@ -26,17 +24,9 @@ const Home = () => (
                         <li className="listItem">Read a random math-related quote.</li>
                     </ul>
                     <p>
-                        The app is developed using
-                        {' '}
-                        <i>React,</i>
-                        {' '}
-                        and styled through the
-                        {' '}
-                        <i>React basic styling.</i>
-                        {' '}
-                        Navigation is made possible through
-                        {' '}
-                        <i>React Router.</i>
+                        The app is developed using <i>React </i> 
+                        and styled through the <i>React basic styling. </i>
+                        Navigation is made possible through <i>React Router.</i>
                     </p>
                 </div>
             </div>
